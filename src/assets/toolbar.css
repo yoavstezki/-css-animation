@@ -1,0 +1,31 @@
+.toolbar {
+    display: flex;
+    position: fixed;
+    justify-content: space-between;
+    align-items: center;
+    top: 0;
+    left: 0;
+    height: 50px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, .7);
+    border: 1px rgba(0,0,0,0.5);
+    padding: 5px;
+}
+
+.item {
+    height: 40px;
+    width: 80px;
+    margin: 10px;
+    background-color: #2b71ff;
+    border-color: #fff;
+    color: white;
+    transition: transform 1s;
+    text-align: center;
+    font-size: 16px;
+    line-height: 40px;
+    border-radius: 25%;
+}
+
+.item:hover {
+    transform: scale(1.1);
+}

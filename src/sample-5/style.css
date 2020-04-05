@@ -1,0 +1,15 @@
+img {
+    width: 300px;
+    display: block;
+    margin: 120px auto;
+    /*padding: 50px;*/
+    transition: transform 1s;
+}
+
+img:hover {
+    transform: rotate(45deg);
+}
+
+#transform-origin {
+    transform-origin: left top;
+}

@@ -1,0 +1,11 @@
+img {
+    width: 300px;
+    display: block;
+    margin: auto;
+    transition: transform 2s, border-radius 3s 2s;
+}
+
+img:hover {
+    transform: translate(500px, 200px);
+    border-radius: 50px;
+}
